@@ -43,6 +43,13 @@ public class stone_paper_scissor {
                     ms = ms - 1;
                 }
             }
-           
+         System.out.println("\nTotal Score of Computer is:- " + cp + "\nTotal  Score of  your's is:- " + pp);
+        if (cp > pp) {
+            System.out.println("Computer is the real winner");
+        } else if (pp > cp) {
+            System.out.println("you are the real winner");
+        } else if (pp == cp) {
+            System.out.println("The Match was Draw");
+        } 
     }
 }
